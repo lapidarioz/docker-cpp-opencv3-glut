@@ -8,7 +8,7 @@ docker build -t cpp-opencv3-glut-onbuild .
 ## RUN
 Dockerfile
 ```
-FROM lapidarioz/docker-cpp-opencv3-glut-onbuild
+FROM lapidarioz/docker-cpp-opencv3-glut:onbuild
 CMD [ "your-project-name" ]
 ```
 bash
