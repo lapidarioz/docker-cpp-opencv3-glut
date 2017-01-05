@@ -1,7 +1,7 @@
-#include <opencv2/core/core.hpp>
-#include <opencv2/highgui/highgui.hpp>
-#include <dlib/image_processing.h>
-#include <dlib/opencv.h>
+#include <GL/glut.h>
+#include <GL/glext.h>
+#include <opencv/cv.h>
+#include <opencv/highgui.h>
 #include <iostream>
 
 int main(int argc, char** argv)
